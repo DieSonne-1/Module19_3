@@ -1,0 +1,14 @@
+{% extends "menu.html" %}
+
+{% block pagename %}
+    <h1>Корзина</h1>
+{% endblock %}
+
+{% block menu%}
+    {{block.super}}
+{% endblock %}
+
+{% block content %}
+    <h3>Ваша корзина пуста</h3>
+    <a href="/platform"> <button>Вернуться на главную страницу</button></a>
+{% endblock %}
